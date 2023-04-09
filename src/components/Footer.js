@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import Link from 'next/link'
 import footLogo from '../pages/img/gracious.png'
 import Image from 'next/image'
 export const Footer = () => {
@@ -9,13 +8,13 @@ export const Footer = () => {
         })
         }  
         
-        const router = useRouter()
+const router = useRouter()
 return (
 <>
 <footer>
-<div class="footer-container">
+<div className="footer-container">
 <p>© Gracious Crosing or its affiliated companies. All rights reserved.</p>
-<Image  onClick={scrollTo} src={footLogo} style={{}}  priority/>
+<Image  onClick={scrollTo} src={footLogo}  alt='...'  priority/>
 </div>
 
 </footer>
