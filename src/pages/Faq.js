@@ -3,6 +3,8 @@ import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import Accordion from '@/components/Accordion'
 import Head from 'next/head'
+import Image from 'next/image'
+import gcrossing from '../pages/img/Gracious-crossing.png'
 const Faq = () => {
 return (
 <>
@@ -14,6 +16,15 @@ return (
 <link rel="icon" href="/favicon.ico" />
 </Head>
 <Navbar/>
+
+<Image 
+width={500} 
+style={{display:'grid', 
+placeItems:'center',
+margin:'auto'}} 
+src={gcrossing} 
+alt='' priorty/>
+
 <div className="accordion">
 <Accordion
 title="Why Choose Gracious Crossing?"

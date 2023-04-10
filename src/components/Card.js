@@ -27,7 +27,7 @@ export const Card = () => {
 <Image src={card3}  style={{width:'100%',height:'auto'}}   priority alt='...'/>
 <h2>Contact an Agent</h2>
 <p>Get in touch with one of our experienced real estate agents to help guide you through the home buying process.</p>
-<button>Learn More</button>
+<button onClick={() => router.push('/Contact')}>Learn More</button>
 </div>
 </section>
 </div>

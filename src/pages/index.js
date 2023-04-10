@@ -7,9 +7,10 @@ import cardimg1 from '../pages/img/home-card1.jpeg'
 import cardimg2 from '../pages/img/home-card2.jpg'
 import cardimg3 from '../pages/img/home-card3.jpg'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 export default function Home() {
-
+const router = useRouter()
 return (
 <>
 <Head>
@@ -23,7 +24,21 @@ return (
 <section className="hero">
 <h1>Welcome to Gracious Crossing </h1>
 <p>Here you can find all the information you need about our products and services.</p>
-<Link href="/services" className="herobtn">Go To Services</Link>
+<button
+
+onClick={() => router.push('/Services')}
+style={{
+backgroundColor:'#109351',
+color:'#fff',
+padding:'10px 20px',
+textDecoration: 'none',
+display: 'inline-block',
+borderRadius: '5px',
+transition: '.5s',
+border: 'none',
+marginBottom: '5rem'
+}}
+>Go To Services</button>
 </section>  
 
 
