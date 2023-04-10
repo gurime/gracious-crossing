@@ -95,7 +95,8 @@ cursor: pointer;
 
 
 .hero {
-background-image: linear-gradient(to bottom, #0000004d, #0000004d), url("../pages/img/bg-h.jpg");
+background-image: linear-gradient(to bottom, #0000004d, #0000004d), 
+url("../pages/img/bg-h.jpg");
 background-size: cover;
 background-position: center;
 display: flex;
@@ -186,7 +187,8 @@ background-color: #0cef7d;
 
 /* mortage css */
 .mortage-hero {
-background-image: linear-gradient(to bottom, #0000004d, #0000004d),url('../pages/img/bg-mortage.jpg');
+background-image: linear-gradient(to bottom, #0000004d, #0000004d),
+url('../pages/img/bg-mortage.jpg');
 background-size: cover;
 background-position: center;
 height: 100vh;
@@ -507,7 +509,8 @@ height: 12vh;
 
 /* article css starts here */
 .Articlehero {
-background-image: linear-gradient(to bottom, #0000004d, #0000004d), url("../pages/img/article-bg.jpg");
+background-image: linear-gradient(to bottom, #0000004d, #0000004d), 
+url("../pages/img/article-bg.jpg");
 background-size: cover;
 background-position: center;
 display: flex;
