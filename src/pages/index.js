@@ -8,7 +8,7 @@ import cardimg2 from '../pages/img/home-card2.jpg'
 import cardimg3 from '../pages/img/home-card3.jpg'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-
+import heroimg from '../pages/img/bg-h.jpg'
 export default function Home() {
 const router = useRouter()
 return (
@@ -21,7 +21,8 @@ return (
 </Head>
    
 <Navbar/>      
-<section className="hero">
+<section 
+className="hero">
 <h1>Welcome to Gracious Crossing </h1>
 <p>Here you can find all the information you need about our products and services.</p>
 <button

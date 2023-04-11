@@ -95,7 +95,7 @@ cursor: pointer;
 
 
 .hero {
-background-image: linear-gradient(to bottom, #0000004d, #0000004d), url("../pages/img/bg-h.jpg");
+background-image: linear-gradient(to bottom, #0000004d, #0000004d), url("/img/bg-h.jpg");
 background-size: cover;
 background-position: center;
 display: flex;
