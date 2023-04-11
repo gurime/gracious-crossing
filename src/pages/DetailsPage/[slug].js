@@ -29,7 +29,7 @@ behavior: 'smooth',
 return (
 <>
 <Head>
-<title>Itruth News | Articles</title>
+<title>Gracious Crossing | Articles</title>
 </Head>
 <Navbar />
 <div className="article-container">
