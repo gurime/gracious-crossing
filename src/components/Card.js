@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 export const Card = () => {
   const router = useRouter()
   return (
-<div><section className="cards" >
+<section className="cards" >
 <div className="card">
 <Image src={card1}   style={{width:'100%',height:'auto'}}   alt='...' priority/>
 <h2>Find Your Dream Home</h2>
@@ -30,7 +30,7 @@ export const Card = () => {
 <button onClick={() => router.push('/Contact')}>Learn More</button>
 </div>
 </section>
-</div>
+
 )
 }
 

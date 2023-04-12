@@ -74,9 +74,9 @@ Our home buying process is simple and straightforward:
 </ol>
 <h3>Contact Gracious Crossing</h3>
 <p>If you're ready to sell your home, or if you have any questions about our services, please don't hesitate to get in touch with us. You can call us at 
-<Link href="tel:1-800-555-1234">1-800-555-1234</Link>, email us at 
-<Link href="mailto:info@graciouscrossing.com">info@graciouscrossing.com</Link>, or fill out the contact form on our 
-<Link href="/Contact">contact page</Link>.</p>
+<Link href="tel:1-800-555-1234"> 1-800-555-1234 </Link>, email us at 
+<Link href="mailto:info@graciouscrossing.com"> info@graciouscrossing.com </Link>, or fill out the contact form on our 
+<Link href="/Contact"> contact page </Link>.</p>
 <p>Thank you for considering Gracious Crossing for your home selling needs. We look forward to working with you!</p>
 </div>
 <Footer/>
