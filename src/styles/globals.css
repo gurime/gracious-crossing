@@ -130,8 +130,6 @@ gap:1rem;
 padding: 0.8rem 0; }
 
 .card {
-background-color: #fff;
-box-shadow: 0 4px 8px #0000001a;
 padding: 1rem;
 margin-bottom: 20px;
 border-radius: 5px;
@@ -155,7 +153,7 @@ letter-spacing: 1px;
 }
 
 .card button {
-background-color: #109351;
+background-color: #17a2f6;
 color: #fff;
 padding: 10px;
 border: none;
@@ -170,7 +168,7 @@ color: #fff;
 }
 
 .card button:hover{
-background-color: #0cef7d;
+background-color: #03446d;
 }
 
 
@@ -182,7 +180,6 @@ background-color: #0cef7d;
 background-image: linear-gradient(to bottom, #0000004d, #0000004d),url('/img/bg-mortage.jpg');
 background-size: cover;
 background-position: center;
-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -205,19 +202,10 @@ color: #fff;
 }
 
 .hero button {
-background-color: #fff;
-color: #333;
-border: none;
-border-radius: 5px;
-padding: 10px 20px;
 font-size: 1.2rem;
 cursor: pointer;
 }
 
-.mortage-hero button:hover {
-background-color: #333;
-color: #fff;
-}
 
 .mortage-form {
 max-width: 600px;
@@ -242,6 +230,7 @@ border: none;
 border-radius: 5px;
 background-color: #f2f2f2;
 margin-bottom: 20px;
+outline: none;
 }
 
 .mortage-form button {
@@ -283,7 +272,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .container h1 {
-font-size: 3vh;
+
 margin-top: 0;
 margin-bottom: 1rem;
 }
@@ -324,7 +313,6 @@ line-height: 1.5;
 /* contact css starts here */
 
 .container h1 {
-font-size: 3vh;
 margin-top: 0;
 margin-bottom: 1rem;
 }
@@ -390,7 +378,6 @@ margin-bottom: 1rem;
 
 /* services css starts here */
 .container h2 {
-font-size: 2vh;
 margin-top: 0;
 margin-bottom: 1rem;
 }
@@ -489,9 +476,7 @@ visibility: visible;
 max-height: 1000px;
 }
 
-.faq-sep{
-height: 12vh;
-}
+
 
 /* faq css stops here */
 
@@ -764,10 +749,6 @@ border-bottom: solid 1px #fff;
 flex-direction: column-reverse !important;
 }
 
-.tagline-header-reverse{
-height: 50vh;
-
-}
 
 .tagline-title{
 font-size: 20px;
@@ -779,7 +760,7 @@ width: auto;
 
 .tagline-header{
 width: auto;
-height: 50vh;
+height: auto;
 transform: translateY(60px);
 }
 
@@ -806,6 +787,14 @@ height: auto;
 }
 
 @media(max-width:768px){
+
+    .mortage-hero h1{
+        padding: 0 1rem;
+    }
+
+    .hero h1{
+        font-size: 24px;
+    }
 .navlinks a{
 font-size: 14px;
 }

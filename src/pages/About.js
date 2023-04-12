@@ -5,10 +5,10 @@ import { Footer } from '@/components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import card1 from "./img/bg-amout_img.jpg"
-import card2 from "../pages/img/card1-img.jpeg"
-import card3 from "../pages/img/card2-img.jpeg"
-import card4 from '../pages/img/card4-img.jpg'
-import card5 from '../pages/img/card3-img.jpg'
+import card2 from "../pages/img/about-buy-home.jpg"
+import card3 from "../pages/img/about-money.jpg"
+import card4 from '../pages/img/about-pro.jpg'
+import card5 from '../pages/img/about-paper.jpg'
 import Head from 'next/head'
 const About = () => {
 const router = useRouter()

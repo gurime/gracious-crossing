@@ -28,7 +28,7 @@ className="hero">
 
 onClick={() => router.push('/Services')}
 style={{
-backgroundColor:'#109351',
+backgroundColor:' #17a2f6',
 color:'#fff',
 padding:'10px 20px',
 textDecoration: 'none',
