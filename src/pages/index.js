@@ -25,7 +25,6 @@ className="hero">
 <h1>Welcome to Gracious Crossing </h1>
 <p>Here you can find all the information you need about our products and services.</p>
 <button
-
 onClick={() => router.push('/Services')}
 style={{
 backgroundColor:' #17a2f6',
@@ -53,7 +52,7 @@ marginBottom: '5rem'
 <p>Browse some of the highest 
 quality homes, list your property, 
 sign a lease and more.</p>
-<Link href='/Info'>More Info</Link>
+<Link href='#!'>More Info</Link>
 </div>
 <Image height={300} src={cardimg1} alt="" priority/>
 </div>
@@ -63,7 +62,7 @@ sign a lease and more.</p>
 <div className="tagline-header tagline-header-reverse">
 <h1>List your property</h1>
 <p>Reach millions of renters by listing your property.</p>
-<Link href='/Listings'>Add your listings</Link>
+<Link href='#!'>Add your listings</Link>
 </div>
 </div>
 

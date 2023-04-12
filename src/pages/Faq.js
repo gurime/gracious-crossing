@@ -17,13 +17,13 @@ return (
 </Head>
 <Navbar/>
 
-<Image 
+<Image className='faqimg'
 width={500} 
 style={{display:'grid', 
 placeItems:'center',
 margin:'auto'}} 
 src={gcrossing} 
-alt='' priorty/>
+alt='...' />
 
 <div className="accordion">
 <Accordion

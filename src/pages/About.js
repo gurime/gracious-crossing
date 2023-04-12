@@ -4,7 +4,7 @@ import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
-import card1 from "./img/bg-amout_img.jpg"
+import card1 from "./img/bg-amount_img.jpg"
 import card2 from "../pages/img/about-buy-home.jpg"
 import card3 from "../pages/img/about-money.jpg"
 import card4 from '../pages/img/about-pro.jpg'
